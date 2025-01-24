@@ -2,7 +2,19 @@
 
 <a routerLink="/contacts/add">Add Contacts</a>
 
-<div>
-    {{contacts | json}}
-</div>
 
+
+<table border="1">
+    <thead>
+        <th>Contact Name</th><th></th>
+    </thead>
+
+    @for (contact of contacts; track $index) {
+        <tr>
+            <td>{{contact.contactName}}</td>
+            <td><a [routerLink]="'/contacts/'+contact.contactId">Detail</a></td>
+            <td><button (click)="triggerDelete(contact.contactId)">Delete</button></td>
+        </tr>
+    }
+
+</table>

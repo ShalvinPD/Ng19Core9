@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ng19Core9.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3606a3e76c5d10055bc319f36b53f3c341e1ccb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2572f1fe1af104257bcbc2c086faf219d15a6011")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ng19Core9.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ng19Core9.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

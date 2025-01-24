@@ -19,7 +19,16 @@ export class ContactsComponent implements OnInit {
 
   contacts: Contact[] = [];
 
-
+  triggerDelete(id:number){
+    let needToDelete = confirm('Are you sure you want to delete ?')
+    if(needToDelete){
+      this.http.delete(`/api/contacts/${id}`).subscribe({
+        next:() =>{
+          this.getContacts()
+        } 
+      })
+    }
+  }
 
    getContacts() {
       this.http.get<Contact[]>('/api/contacts').subscribe({
