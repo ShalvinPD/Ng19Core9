@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { NgIf, NgFor, JsonPipe } from '@angular/common';
 import { Contact } from './models/contact';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 interface WeatherForecast {
   date: string;
@@ -14,7 +15,7 @@ interface WeatherForecast {
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [NgIf, NgFor, JsonPipe]
+    imports: [NgIf, NgFor, JsonPipe, RouterOutlet, RouterLink]
 })
 export class AppComponent implements OnInit {
   public forecasts: WeatherForecast[] = [];
@@ -25,18 +26,18 @@ export class AppComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
-    this.getContacts();
+    // this.getContacts();
   }
 
-  getContacts() {
-    this.http.get<Contact[]>('/api/contacts').subscribe(
-      (result) => {
-        this.contacts = result;
-      },
-      (error) => {
-        console.error(error);
-      }
-    );
+  // getContacts() {
+  //   this.http.get<Contact[]>('/api/contacts').subscribe(
+  //     (result) => {
+  //       this.contacts = result;
+  //     },
+  //     (error) => {
+  //       console.error(error);
+  //     }
+  //   );
 
   // getForecasts() {
   //   this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
@@ -52,4 +53,4 @@ export class AppComponent implements OnInit {
   // title = 'ng19core9.client';
 
 }
-}
+
