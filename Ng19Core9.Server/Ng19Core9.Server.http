@@ -1,0 +1,6 @@
+@Ng19Core9.Server_HostAddress = http://localhost:5003
+
+GET {{Ng19Core9.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

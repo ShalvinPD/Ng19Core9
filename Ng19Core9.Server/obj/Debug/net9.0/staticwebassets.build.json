@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "LpfjNFoWS2g3MEFO9DpIKLdmBotGCMPuw08rzxwdtfo=",
+  "Source": "Ng19Core9.Server",
+  "BasePath": "_content/Ng19Core9.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\ng19core9.client.esproj",
+      "Version": 2,
+      "Source": "ng19core9.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

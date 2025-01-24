@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Ng19Core9.Server.props" />
+</Project>

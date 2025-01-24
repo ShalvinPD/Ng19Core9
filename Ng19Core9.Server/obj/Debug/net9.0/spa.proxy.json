@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:51561",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\Ng19Core9.Server\\..\\ng19core9.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
