@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1A1D1F-98E1-488A-A3D7-33806F60B366}|ng19core9.client\\ng19core9.client.esproj|d:\\shalvin\\bindiya\\jan24coreng\\ng19core9\\ng19core9.client\\src\\app\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{AB1A1D1F-98E1-488A-A3D7-33806F60B366}|ng19core9.client\\ng19core9.client.esproj|solutionrelative:ng19core9.client\\src\\app\\header\\header.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1A1D1F-98E1-488A-A3D7-33806F60B366}|ng19core9.client\\ng19core9.client.esproj|d:\\shalvin\\bindiya\\jan24coreng\\ng19core9\\ng19core9.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB1A1D1F-98E1-488A-A3D7-33806F60B366}|ng19core9.client\\ng19core9.client.esproj|solutionrelative:ng19core9.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB1A1D1F-98E1-488A-A3D7-33806F60B366}|ng19core9.client\\ng19core9.client.esproj|d:\\shalvin\\bindiya\\jan24coreng\\ng19core9\\ng19core9.client\\src\\app\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB1A1D1F-98E1-488A-A3D7-33806F60B366}|ng19core9.client\\ng19core9.client.esproj|solutionrelative:ng19core9.client\\src\\app\\header\\header.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.component.html",
+              "DocumentMoniker": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "ng19core9.client\\src\\app\\app.component.html",
+              "ToolTip": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "ng19core9.client\\src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-25T05:29:18.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "header.component.ts",
+              "DocumentMoniker": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\src\\app\\header\\header.component.ts",
+              "RelativeDocumentMoniker": "ng19core9.client\\src\\app\\header\\header.component.ts",
+              "ToolTip": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\src\\app\\header\\header.component.ts*",
+              "RelativeToolTip": "ng19core9.client\\src\\app\\header\\header.component.ts*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-01-25T05:31:47.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "header.component.html",
+              "DocumentMoniker": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\src\\app\\header\\header.component.html",
+              "RelativeDocumentMoniker": "ng19core9.client\\src\\app\\header\\header.component.html",
+              "ToolTip": "D:\\Shalvin\\Bindiya\\Jan24CoreNg\\Ng19Core9\\ng19core9.client\\src\\app\\header\\header.component.html",
+              "RelativeToolTip": "ng19core9.client\\src\\app\\header\\header.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-25T05:31:40.686Z",
+              "EditorCaption": ""
             }
           ]
         }

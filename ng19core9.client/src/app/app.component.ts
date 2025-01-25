@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgIf, NgFor, JsonPipe } from '@angular/common';
 import { Contact } from './models/contact';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header.component';
 
 interface WeatherForecast {
   date: string;
@@ -15,7 +16,7 @@ interface WeatherForecast {
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [NgIf, NgFor, JsonPipe, RouterOutlet, RouterLink]
+    imports: [NgIf, NgFor, JsonPipe, RouterOutlet, RouterLink, HeaderComponent]
 })
 export class AppComponent implements OnInit {
   public forecasts: WeatherForecast[] = [];
